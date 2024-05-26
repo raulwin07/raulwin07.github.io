@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 80%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+}
+
+#padre{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.hijo{
+    display: flex;
+}
+
+#imagen1{
+    margin-right: 20px;
+}
+
+#imagen2{
+    margin-left: 20px;
+    border-radius: 20%;
+}
+
+
+body{
+    background-image: url(EParcial/EParcial/imagenes/fondo.jpg);
+}
+
+span{
+    font-weight: bold;
+}
+
+#cursiva{
+    font-style: italic;
+}
+
+#resaltado{
+    background-color: rgb(12, 249, 12);
+}
+
+#subrayado{
+    text-decoration: underline;
+}
+
+#tachado{
+    text-decoration: line-through;
+}
+
+h1{
+    margin-bottom: 25px;
+    text-align: end;
+    font-family: cute;
+    margin: 20px;
+    color: blue;
+    font-size: 50px;
+}
+
+#titulo2{
+    color: red;
+}
+
+.hijo p{
+    font-family: Astonpoliz;
+}
+
+#menu1 {
+    width: 30%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+#menu1 a{
+    text-decoration: none;
+    background-color: rgb(6, 116, 26);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu1 a:hover{
+    background-color: rgb(229, 229, 38);
+}
+
+#menu2{
+    margin: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: end;
+
+}
+
+#menu2 li{
+    list-style-type: none;
+}
+
+#menu2 ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu2 a{
+    text-decoration: none;
+    background-color: rgb(6, 43, 116);
+    color: rgb(251, 254, 17);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px 5px;
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 150px;
+}
+
+#menu2 a:hover{
+    background-color: beige;
+    color: black;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu3{
+    margin: 30px;
+    margin-bottom: 40px;
+    border: 3px solid black
+    
+}
+
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+.imagen3{
+    width: 33.33%;
+}
+
+@font-face{
+    font-family: cute;
+    src: url(EParcial/Fuentes/KidsCute-DemoVersion-Regular.otf);
+}
+
+@font-face{
+    font-family: Astonpoliz;
+    src: url(EParcial/Fuentes/Astonpoliz.ttf);
+}
+
+ol{
+    margin: 20px;
+    padding: 20px;
+}
+
+#punto2{
+    margin-top: 20px;
+}
+
+#ultimo_titulo{
+    color:green;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#simbolo{
+    width: 10%;
+    margin: auto;
+}
+
+.footer{
+    text-align: center;
+    padding:  20px;
+}
